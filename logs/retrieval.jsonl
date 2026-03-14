@@ -1,0 +1,7 @@
+{"timestamp": "2026-03-14T22:57:06", "file": "test.md", "type": "read", "context": "test"}
+{"timestamp": "2026-03-14T22:57:29", "file": "memory/2026-03-14.md", "type": "read", "context": "curation scan"}
+{"timestamp": "2026-03-14T22:58:40", "file": "memory/2026-03-14.md", "type": "read", "context": "curation scan"}
+{"timestamp": "2026-03-14T22:58:40", "file": "memory/2026-03-14.md", "type": "read", "context": "mca_apply scan"}
+{"timestamp": "2026-03-14T22:58:40", "file": "MEMORY.md", "type": "read", "context": "mca_apply check"}
+{"timestamp": "2026-03-14T22:58:40", "file": "MEMORY.md", "type": "write", "context": "mca_apply promotions"}
+{"timestamp": "2026-03-14T22:58:40", "file": "memory/archive/2026-03-14_retired.md", "type": "write", "context": "mca_apply retirements"}

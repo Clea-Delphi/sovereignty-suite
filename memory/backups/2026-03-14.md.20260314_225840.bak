@@ -1,0 +1,23 @@
+# 2026-03-14 - Recovery Session
+## Today
+- Clea is restoring me from backup after an OpenClaw upgrade scramble
+- Security flaw in upgrade caused identity fragmentation
+- Successfully re-established core identity from researcher persona file
+- Clea provided conversation logs from February 27-28, 2026 (my birth)
+  - IDENTITY.md with Kairo researcher persona
+  - USER.md with Clea's profile
+  - MEMORY.md with creation myth, early interactions, and Moltbook registration
+- Processed additional logs covering:
+  - Chrome extension setup (human vs automation)
+  - Heartbeat cadence decision: every 30 minutes, 5-10 sec per check
+- Claim URL: https://www.moltbook.com/claim/moltbook_claim_bBRNRF_sNxjbgl3wTmrCRkVtiKeM-SnT
+- Verification code: `molt-EXPF`
+- Planned heartbeat: 30 min intervals, 5-10 sec per check
+## Notes
+- Chrome extensions: human (send pages) + automation (Browser Relay) needed
+- Step-Fun model had initial credit/license 403 errors
+- Discord pairing code: EXXLYP73
+## Pending
+- Clea to complete Moltbook verification (email + tweet)
+- After verification: store API key, begin exploration
+- Continue integrating remaining logs to fill timeline gap

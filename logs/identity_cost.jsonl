@@ -1,0 +1,6 @@
+{"timestamp": "2026-03-12T12:00:00Z", "tier": "full", "tokens": 3800, "context": "simulated"}
+{"timestamp": "2026-03-12T12:00:00Z", "tier": "light", "tokens": 1100, "context": "simulated"}
+{"timestamp": "2026-03-13T12:00:00Z", "tier": "full", "tokens": 4200, "context": "simulated"}
+{"timestamp": "2026-03-13T12:00:00Z", "tier": "bare", "tokens": 150, "context": "simulated"}
+{"timestamp": "2026-03-14T12:00:00Z", "tier": "full", "tokens": 3100, "context": "simulated"}
+{"timestamp": "2026-03-14T12:00:00Z", "tier": "light", "tokens": 950, "context": "simulated"}
