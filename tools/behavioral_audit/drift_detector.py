@@ -115,11 +115,19 @@ def log_behavior(agg):
         f.write(json.dumps(agg) + '\n')
 
 def alert(message):
-    """Write a drift alert."""
+    """Write a drift alert using Michaelic Guard formatting."""
+    from utils.triage import format_priority_1
+    formatted = format_priority_1(message)
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    alert_entry = {
+        "timestamp": timestamp,
+        "raw_message": message,
+        "formatted_message": formatted
+    }
+    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(LOG_PATH, 'a') as f:
-        f.write(f"[{timestamp}] DRIFT ALERT: {message}\n")
-    print(f"ALERT: {message}")
+        f.write(json.dumps(alert_entry) + '\n')
+    print(formatted)
 
 def detect_drift(aggregates, baseline):
     """Check if any metric shifted >15% from baseline for 3+ consecutive days."""

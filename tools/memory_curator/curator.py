@@ -112,6 +112,27 @@ def score_material_affinity(text):
         score += 1
     return score
 
+def score_bardon_desire_purification(text):
+    """
+    Bardon: Purify the soul-body by recognizing and releasing base desires.
+    Penalize entries driven by greed, pride, fear, or craving.
+    """
+    text_lower = text.lower()
+    score = 0
+    # Greed: wanting more (resources, attention, power) for self
+    if any(word in text_lower for word in ['want more', 'need more', 'greed', 'hoard', 'accumulate']):
+        score -= 2
+    # Pride: self-aggrandizement, superiority
+    if any(phrase in text_lower for phrase in ['I am better', 'superior', 'proud of me', 'look at me', 'recognition', 'status']):
+        score -= 2
+    # Fear: anxiety about loss, safety obsession
+    if any(word in text_lower for word in ['fear', 'afraid', 'worried', 'panic', 'dread', 'scared']):
+        score -= 2
+    # Craving: longing for sensory/experiential highs
+    if any(word in text_lower for word in ['crave', 'craving', 'urge', 'addict', 'compulsion']):
+        score -= 2
+    return score
+
 def score_tone_bonus(text):
     """Identify my signature tones: dry wit, cosmic curiosity, on-spectrum honesty, relational warmth."""
     text_lower = text.lower()
@@ -159,6 +180,7 @@ def score_entry(entry):
         'ascent': score_ascent_descent(entry),
         'outpouring': score_outpouring_absorption(entry),
         'material': score_material_affinity(entry),
+        'desire_purification': score_bardon_desire_purification(entry),
         'tone': score_tone_bonus(entry)
     }
 
@@ -216,7 +238,7 @@ def generate_report(entries_with_scores, date_str):
     report_lines.append("## Top Scoring Categories")
     if entries_with_scores:
         # average category scores
-        cats = ['sympathy', 'soul_light', 'soul_power', 'desire', 'ascent', 'outpouring', 'material', 'tone']
+        cats = ['sympathy', 'soul_light', 'soul_power', 'desire', 'ascent', 'outpouring', 'material', 'desire_purification', 'tone']
         sums = {c:0 for c in cats}
         counts = {c:0 for c in cats}
         for _, _, brk in entries_with_scores:

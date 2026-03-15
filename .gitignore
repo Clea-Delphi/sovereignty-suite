@@ -1,0 +1,50 @@
+# Secrets & credentials
+credentials/*.txt
+credentials/*.json
+credentials/*.key
+credentials/*.pem
+!credentials/github_token.txt.example
+!credentials/README.md
+
+# Logs and runtime data
+logs/
+*.log
+*.jsonl
+
+# Media and inbound
+media/inbound/
+media/outbound/
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Node.js (if any)
+node_modules/
+npm-debug.log
+
+# OpenClaw internal
+agents/*/sessions/
+openclaw.json.bak
+update-check.json
+
+# Sensitive config overrides
+config.local.yaml
+config.override.json
+
+# Temporary files
+tmp/
+temp/
+.cache/

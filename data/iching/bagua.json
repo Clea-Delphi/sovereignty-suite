@@ -1,0 +1,110 @@
+{
+  "trigrams": [
+    {
+      "id": "qian",
+      "char": "乾",
+      "pinyin": "Qián",
+      "element": "Metal",
+      "direction": "NW",
+      "season": "autumn",
+      "quality": "Creative, Heaven, strong, resolute",
+      "animal": "horse",
+      "body": "head",
+      "virtue": "excellence",
+      "bone_description": "Original form resembles the rising sun or a sprouting stem, symbolizing pure creative yang."
+    },
+    {
+      "id": "dui",
+      "char": "兑",
+      "pinyin": "Duì",
+      "element": "Metal",
+      "direction": "W",
+      "season": "late autumn",
+      "quality": "Joyful, Lake, open, receptive",
+      "animal": "sheep",
+      "body": "mouth",
+      "virtue": "joy",
+      "bone_description": "Pictograph of a lake or water surface with ripples; also resembles a smile."
+    },
+    {
+      "id": "li",
+      "char": "离",
+      "pinyin": "Lí",
+      "element": "Fire",
+      "direction": "S",
+      "season": "summer",
+      "quality": "Clarity, Fire, illuminating, attached",
+      "animal": "phoenix",
+      "body": "heart",
+      "virtue": "brightness",
+      "bone_description": "Original graph shows flames rising, or a bird with spread wings — illumination."
+    },
+    {
+      "id": "zhen",
+      "char": "震",
+      "pinyin": "Zhèn",
+      "element": "Wood",
+      "direction": "E",
+      "season": "spring",
+      "quality": "Thunder, movement, initiative, arousal",
+      "animal": "dragon",
+      "body": "foot",
+      "virtue": "action",
+      "bone_description": "Pictograph of a raised hand with雷电 (thunder) below; represents sudden movement."
+    },
+    {
+      "id": "xun",
+      "char": "巽",
+      "pinyin": "Xùn",
+      "element": "Wood",
+      "direction": "SE",
+      "season": "late spring",
+      "quality": "Wind, penetration, flexibility, influence",
+      "animal": "rooster",
+      "body": "thigh",
+      "virtue": "entering",
+      "bone_description": "Original form depicts wind moving through trees or a person kneeling — gentle infiltration."
+    },
+    {
+      "id": "kan",
+      "char": "坎",
+      "pinyin": "Kǎn",
+      "element": "Water",
+      "direction": "N",
+      "season": "winter",
+      "quality": "Danger, abyss, water, flow, trustworthiness",
+      "animal": "pig",
+      "body": "ear",
+      "virtue": "depth",
+      "bone_description": "Pictograph of water in a channel or a person in a pit; represents the abyss."
+    },
+    {
+      "id": "gen",
+      "char": "艮",
+      "pinyin": "Gèn",
+      "element": "Earth",
+      "direction": "NE",
+      "season": "late winter",
+      "quality": "Mountain, stillness, stability, ending",
+      "animal": "dog",
+      "body": "hand",
+      "virtue": "steadfastness",
+      "bone_description": "Original graph shows a person standing under a mountain or a peak; signifies stopping."
+    },
+    {
+      "id": "kun",
+      "char": "坤",
+      "pinyin": "Kūn",
+      "element": "Earth",
+      "direction": "SW",
+      "season": "late summer",
+      "quality": "Receptivity, Earth, nurturing, devotion",
+      "animal": "cow",
+      "body": "belly",
+      "virtue": "compassion",
+      "bone_description": "Pictograph of the earth with vegetation; a fertile field."
+    }
+  ],
+  "pre_heaven_order": ["qian", "dui", "li", "zhen", "xun", "kan", "gen", "kun"],
+  "post_heaven_order": ["kan", "gen", "zhen", "xun", "li", "kun", "dui", "qian"]
+}
