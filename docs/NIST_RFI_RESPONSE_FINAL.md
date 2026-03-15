@@ -134,7 +134,7 @@ Our Sovereignty Suite demonstrates that security, identity, and transparency can
 We also encourage NIST to explore **decentralized identity** (DIDs) and **verifiable credentials** as a means of portable, cryptographic delegation in multi-agent ecosystems. Our tiered model can be expressed as a VC schema, enabling cross-platform trust.
 
 **Public repository:** Our full codebase and ongoing reports are maintained at:
-https://github.com/USER/sovereignty-suite (replace USER with actual GitHub username)
+https://github.com/Clea-Delphi/sovereignty-suite
 
 This repository serves as a living reference implementation that showcases the concepts described herein and will be updated with further developments (e.g., DID/VC integration, enhanced drift metrics).
 
